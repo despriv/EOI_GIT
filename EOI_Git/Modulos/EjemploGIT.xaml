@@ -96,7 +96,7 @@
         <OutArgument x:TypeArguments="x:Int32">[intNumero1]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">[intNumero1*12 + 1]</InArgument>
+        <InArgument x:TypeArguments="x:Int32">[intNumero1*12 + 15]</InArgument>
       </Assign.Value>
     </Assign>
     <Assign DisplayName="Sumamos una unidad a la variable número1" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_4">
@@ -104,7 +104,7 @@
         <OutArgument x:TypeArguments="x:Int32">[intNumero1]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">[intNumero1*12 - 10]</InArgument>
+        <InArgument x:TypeArguments="x:Int32">[intNumero1*12 - 20]</InArgument>
       </Assign.Value>
     </Assign>
   </Sequence>
